@@ -43,7 +43,7 @@ public class MatchInfo implements Serializable
 	private Integer creditsLeft;
 	@JsonIgnore
 	private Map<String, Object> additionalProperties = new HashMap<String, Object>();
-	private final static long serialVersionUID = -1326932144470663114L;
+	private final static long serialVersionUID = -112323223232323L;
 
 	/**
 	 * No args constructor for use in serialization

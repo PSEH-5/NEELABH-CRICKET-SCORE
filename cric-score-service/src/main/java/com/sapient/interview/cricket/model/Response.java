@@ -27,7 +27,7 @@ public class Response implements Serializable
     private String roundRotation;
     @JsonIgnore
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
-    private final static long serialVersionUID = -147308610888327564L;
+    private final static long serialVersionUID = -1223223232323234L;
 
     /**
      * No args constructor for use in serialization

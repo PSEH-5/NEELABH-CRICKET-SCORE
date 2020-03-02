@@ -5,30 +5,6 @@ import com.fasterxml.jackson.annotation.*;
 import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
-
-/*
-Run from terminal
-WKMIN3029769:cricket-score alpha$ curl -X GET 'https://cricapi.com/api/cricketScore?unique_id=1136617&apikey=WmPJrX2s3KMyZVPFwlm1vxXLXKw1'
-
-Response from https://cricapi.com/api/cricketScore API:
-{
-  "stat": "",
-  "score": "Sunrisers Hyderabad 139/7  v Chennai Super Kings 140/8 *",
-  "description": "Sunrisers Hyderabad 139/7  v Chennai Super Kings 140/8 *",
-  "matchStarted": true,
-  "team-1": "Sunrisers Hyderabad",
-  "team-2": "Chennai Super Kings",
-  "v": "1",
-  "ttl": 4,
-  "provider": {
-    "source": "Various",
-    "url": "https://cricapi.com/",
-    "pubDate": "2020-03-02T08:40:48.967Z"
-  },
-  "creditsLeft": 250
-}
-
- */
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonPropertyOrder({
 		"stat",
